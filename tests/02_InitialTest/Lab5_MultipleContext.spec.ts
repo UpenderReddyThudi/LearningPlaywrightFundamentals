@@ -1,7 +1,7 @@
 import { chromium } from "playwright";
 
 async function multiUserTest() {
-    let browser = await chromium.launch({ headless: false });
+    let browser = await chromium.launch({ headless: true });
 
     // Admin
     let adminContext = await browser.newContext();
