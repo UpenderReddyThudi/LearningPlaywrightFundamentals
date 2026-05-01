@@ -2,7 +2,7 @@ import {chromium, Browser, BrowserContext, Page} from 'Playwright';
 
 async function run() {
     //Level 1: Launch Browser - Heaviest once, do it once
-    let browser: Browser = await chromium.launch({headless: false});
+    let browser: Browser = await chromium.launch({headless: true});
     console.log("Browser Launch", browser);
 
     // LEVEL 2: Create context - fresh session, isolated cookies

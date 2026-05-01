@@ -2,7 +2,7 @@ import { chromium } from "playwright";
 
 async function multiTabTest() {
 
-    let browser = await chromium.launch({ headless: false });
+    let browser = await chromium.launch({ headless: true });
     let context = await browser.newContext();
 
     // Tab 1
