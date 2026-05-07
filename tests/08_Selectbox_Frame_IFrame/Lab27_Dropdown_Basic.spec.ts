@@ -1,6 +1,6 @@
 import{test, expect} from '@playwright/test';
 
-test('Selectbox  - Basic', async({page})=>{
+test('Dropdown selection  - Basic', async({page})=>{
 
     await page.goto('https://the-internet.herokuapp.com/dropdown');
     await page.locator("#dropdown").selectOption('Option 2');

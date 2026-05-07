@@ -1,6 +1,6 @@
 import{test, expect} from '@playwright/test';
 
-test('Selectbox - Advanced', async({page})=>{
+test('Dropdown selection - Advanced', async({page})=>{
 
     await page.goto('https://app.thetestingacademy.com/playwright/tables/dropdowns');
 
