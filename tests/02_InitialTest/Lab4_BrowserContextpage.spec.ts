@@ -1,4 +1,4 @@
-import {chromium, Browser, BrowserContext, Page} from 'Playwright';
+import {chromium, Browser, BrowserContext, Page} from '@playwright/test';
 
 async function run() {
     //Level 1: Launch Browser - Heaviest once, do it once
