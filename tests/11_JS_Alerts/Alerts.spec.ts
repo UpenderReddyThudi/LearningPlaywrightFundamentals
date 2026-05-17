@@ -51,7 +51,6 @@ test('JS Prompt - Accept', async({page})=>{
         expect(dialog.type()).toBe('prompt');
         expect(dialog.defaultValue()).toBe('');
         await dialog.accept(inputText);
-        //await dialog.dismiss();
     })
 
     await page.locator('button', {hasText: "Click for JS Prompt"}).click();

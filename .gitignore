@@ -10,3 +10,8 @@ node_modules/
 # Allure
 allure-results/
 allure-report/
+
+# Downloads and outputs (test artifacts)
+downloads/
+out/
+/tests/15_FileDownLoad/downloads/
